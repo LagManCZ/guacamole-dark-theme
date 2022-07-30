@@ -1,0 +1,174 @@
+html,
+body {
+    color: #ececec;
+    background-color: #2a2a2a;
+}
+
+pre {
+    color: #ececec;
+    background-color: #222;
+    border: 1px solid #555;
+}
+
+a[href]:visited {
+    color: #884;
+}
+
+a[href] {
+    color: #080;
+}
+
+div.location,
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password],
+textarea {
+    background-color: #2c2c2c;
+    color: #bbbbbb;
+}
+
+input {
+    transition-duration: 0.3s;
+}
+
+button.ng-scope {
+    transition-duration: 0.3s;
+}
+
+/* Login */
+div.login-ui {
+    color: #ececec;
+    background-color: #333333;
+}
+
+.login-ui .login-fields .labeled-field input:focus {
+    background-color: #494949;
+    color: #eeeeee;
+}
+
+.login-dialog {
+    border-radius: 5px;
+}
+
+/* Logout Screen */
+
+.logged-out-modal guac-modal {
+    background: #333333;
+}
+
+.logged-out-modal .notification {
+    border-radius: 5px;
+}
+
+/* Home */
+.recent-connections .connection:hover {
+    background-color: #607830;
+}
+
+.menu-dropdown .menu-contents {
+    background-color: #222222;
+}
+
+.menu-dropdown .menu-contents li a {
+    color: #eeeeee;
+}
+
+.menu-dropdown .menu-contents li a:hover {
+    background-color: #607830;
+}
+
+.list-item.selected {
+    background: #84af2c
+}
+
+.list-item:not(.selected) .caption:hover {
+    background-color: #607830;
+}
+
+.list-item .name {
+    color: #dddddd;
+}
+
+/* Menu */
+.menu {
+    color: #ececec;
+    background-color: #333333;
+}
+
+.clipboard,
+.clipboard-service-target {
+    background-color: #2c2c2c;
+    color: #bbbbbb;
+}
+
+/* Connection */
+
+#connection-warning {
+    background-color: #a8a700;
+}
+
+.transfer-manager {
+    background-color: #2c2c2c;
+}
+
+.transfer.error {
+    background-color: #a80000;
+}
+
+/* Settings */
+.page-tabs .page-list li a[href],
+.section-tabs li a {
+    color: #dddddd;
+}
+
+.page-tabs .page-list li a[href]:hover,
+.section-tabs li a:hover {
+    background-color: #607830;
+}
+
+.page-tabs .page-list li a[href]:visited {
+    color: #ffffff;
+}
+
+.settings table.session-list tr.session:hover {
+    background-color: #84af2c;
+}
+
+.location-chooser .dropdown {
+    background-color: #222222;
+}
+
+.user a,
+.user-group a,
+.connection a,
+.connection-group a {
+    color: #dddddd;
+}
+
+.user a:hover,
+.user-group a:hover,
+.connection a:hover,
+.connection-group a:hover {
+    color: #dddddd;
+}
+
+.user a:visited,
+.user-group a:visited,
+.connection a:visited,
+.connection-group a:visited {
+    color: #ffffff;
+}
+
+.manage-user .notice.read-only {
+    background-color: #291800;
+}
+
+#filesystem-menu .header.breadcrumbs .breadcrumb:hover {
+    background-color: #607830;
+}
+
+#guac-menu #zoom-out:hover,
+#guac-menu #zoom-in:hover {
+    background-color: #607830;
+}

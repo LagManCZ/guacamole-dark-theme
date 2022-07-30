@@ -1,0 +1,11 @@
+{
+  "guacamoleVersion": "*",
+  "name": "Guacamole Dark Theme Extension",
+  "namespace": "guacamoleDarkThemeExtension",
+  "css": [
+    "css/styles.css"
+  ],
+  "translations": [
+    "translations/en.json"
+  ]
+}
